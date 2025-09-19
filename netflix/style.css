@@ -1,0 +1,165 @@
+* {
+    /* background-color: black; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: #000000 !important;
+    /* height: 34rem;
+    width: 24rem; */
+    overflow-x: hidden;
+}
+
+.nav-lengths {
+    padding-top: 1rem;
+}
+
+.select-tag {
+    background-color: transparent !important; 
+    /* margin-bottom: 2rem; */
+   padding: 1rem -2rem;
+    height: 2.5rem;
+}
+
+.main {
+    position: relative;
+    /* height: 235rem; */
+    height: 49rem;
+
+
+}
+
+.main::before {
+    content: "";
+    background-image: url('/images/image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 49rem;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+    /* border-radius: 15rem; */
+}
+
+.submain {
+    position: relative;
+}
+
+.netflix-body {
+    position: relative;
+    bottom: -11rem;
+}
+
+::placeholder {
+    color: white;
+}
+
+.movie-img {
+    width: 10rem;
+    /* height: 12rem; */
+    
+    
+}
+
+.cards {
+    padding: 2rem;
+    background-color: transparent !important;
+    position: relative;
+    /* border-radius: 34rem; */
+}
+
+.cards:hover {
+    /* padding: 1rem; */
+    animation: speed ease forwards;
+    animation-duration: 0.3s;
+}
+
+ @keyframes speed {
+            0% {
+                padding: 1.75rem;
+                /* font-size: 16rem; */
+            }
+            
+            100% {
+                padding: 1.50rem;
+                /* font-size: 25rem; */
+            }
+        }
+
+.card-num {
+    position: absolute;
+    color: #000000;
+    bottom: 2rem;
+    left: 0.7rem;
+    font-size: 5rem;
+    /* display: inline; */
+   text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+               1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+.movie-img {
+    border-radius: 1rem;
+}
+
+.card-last {
+    background-image: linear-gradient(to right, rgba(40, 43, 63, 0.851), rgb(88, 64, 50)) !important;
+    position: relative;
+    border-radius: 50%;
+}
+
+.card-body {
+    position: relative;
+    
+
+}
+
+.card-icon {
+    width: 4rem;
+}
+
+.accord {
+    background-color: rgba(163, 161, 161, 0.249) !important;
+    color: white !important;
+}
+
+.para {
+    font-size: 1.5rem;
+}
+
+.foot {
+    font-size: 1.3rem;
+    color: #c0b4b4;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.card-ht {
+    height: 19rem !important;
+    
+    /* width: 12rem; */
+}
+
+@media screen and (max-width: 460px) {
+    .card-icon {
+        width: 2rem;
+    }
+
+    .card-ht {
+        height: 22rem !important;
+    }
+}
+@media screen and (max-width: 309px) {
+    .card-icon {
+        width: 2rem;
+    }
+
+    .card-ht {
+        height: 29rem !important;
+    }
+}
